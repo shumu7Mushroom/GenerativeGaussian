@@ -1,6 +1,6 @@
 # GenerativeGaussian.github.io
 
-This repository contains the source code for the [GA-Avatar website](https://github.com/GenGaussian/GenerativeGaussian.github.io).
+This repository contains the source code for the [GenerativeGaussian website](https://github.com/GenGaussian/GenerativeGaussian.github.io).
 
 # Website License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -9,4 +9,5 @@ This repository contains the source code for the [GA-Avatar website](https://git
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
 Creative Commons Attribution-ShareAlike 4.0 International License
 </a>.
+
 

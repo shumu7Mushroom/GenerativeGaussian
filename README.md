@@ -92,7 +92,7 @@ Please check `./configs/gen.yaml` for more options.
 If failed to use SyncDreamer or want to use zero-xl to generate anchors instead, only need to set ```enable_zero123xl``` to True and ```enable_syncdreamer``` to False in stage1.py instead.
 
 
-Helper scripts:
+## Helper scripts:
 
 ```bash
 # run the stage 1 for images (modified in scripts)
@@ -117,6 +117,7 @@ The LPIPS and PSNR of training will be recorded in stage1record.txt and stage2re
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
 Creative Commons Attribution-ShareAlike 4.0 International License
 </a>.
+
 
 
 

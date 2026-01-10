@@ -63,14 +63,14 @@ python process.py data
 
 ### training gaussian stage
 # train 500 iters (~1min) and export ckpt & coarse_mesh to logs
-python main.py --config configs/gen.yaml input=data/name_rgba.png save_path=name
+python stage1.py --config configs/gen.yaml input=data/name_rgba.png save_path=name
 
 ### training mesh stage
 # auto load coarse_mesh and refine 50 iters (~1min), export fine_mesh to logs
-python main2.py --config configs/gen.yaml input=data/name_rgba.png save_path=name
+python stage2.py --config configs/gen.yaml input=data/name_rgba.png save_path=name
 
 # specify coarse mesh path explicity
-python main2.py --config configs/gen.yaml input=data/name_rgba.png save_path=name mesh=logs/name_mesh.obj
+python stage2.py --config configs/gen.yaml input=data/name_rgba.png save_path=name mesh=logs/name_mesh.obj
 
 ### visualization
 # gui for visualizing mesh

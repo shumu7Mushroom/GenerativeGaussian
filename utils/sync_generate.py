@@ -12,10 +12,10 @@ import torch
 from omegaconf import OmegaConf
 from skimage.io import imsave
 
-# from SyncDreamer.ldm.models.diffusion.sync_dreamer import SyncMultiviewDiffusion, SyncDDIMSampler
-# from SyncDreamer.ldm.util import instantiate_from_config, prepare_inputs
-from ldm.models.diffusion.sync_dreamer import SyncMultiviewDiffusion, SyncDDIMSampler
-from ldm.util import instantiate_from_config, prepare_inputs
+from SyncDreamer.ldm.models.diffusion.sync_dreamer import SyncMultiviewDiffusion, SyncDDIMSampler
+from SyncDreamer.ldm.util import instantiate_from_config, prepare_inputs
+# from ldm.models.diffusion.sync_dreamer import SyncMultiviewDiffusion, SyncDDIMSampler
+# from ldm.util import instantiate_from_config, prepare_inputs
 
 
 def load_model(cfg,ckpt,strict=True):

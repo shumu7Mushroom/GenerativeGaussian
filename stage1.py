@@ -26,8 +26,8 @@ from PIL import Image
 from torchmetrics.functional import peak_signal_noise_ratio as psnr 
 import datetime
 
-from Depth_Anything_V2.run_api import generate_depth  
-from Real_ESRGAN.realesrgan_wrapper import enhance_single_image
+from utils.run_depth_api import generate_depth  
+from utils.realesrgan_wrapper import enhance_single_image
 from utils.depth_utils import DepthLoss
 from utils.anchors_utils import generate_zero123xl_anchors
 from utils.anchors_utils import run_syncdreamer_prediction

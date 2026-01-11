@@ -11,7 +11,7 @@ import traceback
 
 from realesrgan_wrapper import enhance_single_image
 from cam_utils import orbit_camera
-from zero123xl_singleview import generate_view
+from utils.zero123xl_singleview import generate_view
 # 导入 SyncDreamer 生成函数
 from utils.sync_generate import generate_multiview_images
 
